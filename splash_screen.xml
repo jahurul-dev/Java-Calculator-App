@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D0E12"
+    android:padding="24dp">
+
+    <!-- মাঝখানে আপনার ক্যালকুলেটর লোগোটি দেখাবে -->
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <!-- একদম নিচে ডান কোনায় আপনার নাম দেখাবে -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:text="Build by Jahurul Islam"
+        android:textColor="#94A3B8"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
